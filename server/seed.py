@@ -6,7 +6,7 @@ from datetime import datetime
 
 with app.app_context():
 
-    # Delete existing rows to avoid duplicate entries
+    # Delete existing rows to avoid duplicate entry
     print("Deleting data...")
     Performance.query.delete()
     Game.query.delete()
